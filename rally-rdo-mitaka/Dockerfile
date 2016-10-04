@@ -2,7 +2,7 @@ FROM centos:latest
 MAINTAINER Juan Manuel Rey "juanmanuel.reyportal@gmai.com"
 RUN yum install -y https://repos.fedorapeople.org/repos/openstack/openstack-mitaka/rdo-release-mitaka-5.noarch.rpm
 RUN yum update -y
-RUN yum install openstack-rally \
+RUN yum install -y openstack-rally \
                 openstack-utils \
                 openstack-selinux \
                 gcc \
