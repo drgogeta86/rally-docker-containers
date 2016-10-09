@@ -1,7 +1,8 @@
 # rally-docker-containers
 
 Dockerfiles to create rally containers for different [OpenStack RDO releases](https://www.rdoproject.org).
-- rally-rdo-mitaka: Dockefile for RDO Mitaka release
+- **rally-rdo-mitaka**: Dockerfile for RDO Mitaka release
+- **rally-rdo-newton**: Dockerfile for RDO Newton release
 
 ## Building instructions
 
